@@ -1,0 +1,12 @@
+{
+    "name": "COBOL",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "zowe.vscode-extension-for-zowe",
+        "ibm.zopeneditor"
+    ],
+    "runArgs": [
+        "-v",
+        "${env:HOME}/.zowe/profiles:/root/.zowe/profiles"
+    ]
+}
